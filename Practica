@@ -1,0 +1,26 @@
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author kiyomi
+ */
+public class Semana1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String nombre = " ";
+        String lectura;
+        int edad;
+        String lectura1;
+        int salario;
+        nombre = JOptionPane.showInputDialog("Digite su nombre: ");
+        lectura = JOptionPane.showInputDialog("Digite su edad: ");
+        edad = Integer.parseInt(lectura);
+        lectura1 = JOptionPane.showInputDialog("Ingrese su salario:");
+        salario = (int) Double.parseDouble(lectura1);
+        JOptionPane.showMessageDialog(null, "EL nombre de la persona es: " + nombre + " tiene "+edad+" anios y recibe un salario de: "+salario);
+    }
+    
+}
