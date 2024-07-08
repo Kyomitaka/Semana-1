@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package ejercicio1;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author kiyomi
+ */
+public class Ejercicio1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String nombre = " ";
+        nombre = JOptionPane.showInputDialog("Digite su nombre: ");
+        JOptionPane.showMessageDialog(null, "Hola " + nombre + " bienvenido al mundo de Java, podras dar solucion a muchos problemas.");
+    }
+    
+}
